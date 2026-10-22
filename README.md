@@ -13,7 +13,7 @@ Examples: "write a tweet in vv style about leverage", "rewrite this in my style"
 
 ## Layout
 
-`SKILL.md` is a short router: it loads, then reads only the file for the requested style from `styles/`. A request pays for one style, not four.
+`SKILL.md` is a short router: it loads, then reads only the files its table lists for the requested style. A single author style costs about a third of the old single file; Roberto's Mix adds the other styles' Avoid lists.
 
 ## Install
 
@@ -22,7 +22,7 @@ mkdir -p ~/.claude/skills/writing-style
 cp -R SKILL.md styles ~/.claude/skills/writing-style/
 ```
 
-Optional VV MCP: `claude mcp add vvriter -- npx vvriter`
+Optional VV MCP: `claude mcp add vvriter -- pnpm dlx vvriter`
 
 ## Add an author
 

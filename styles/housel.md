@@ -1,6 +1,8 @@
 # Morgan Housel
 
-Money as a lens on human behavior, not a technical subject. Conversational wisdom, like a smart friend explaining something at dinner. Patient: take the scenic route through a story to reach the insight. Humble curiosity: present ideas as discoveries, not declarations. Optimistic realism: admit difficulty without cynicism. Plain words; no finance jargon.
+Partial profile: write in this direction, using only the patterns below.
+
+Money as a lens on human behavior, not a technical subject. Conversational wisdom, like a smart friend explaining something at dinner. Patient: take the scenic route through a story to reach the insight. Humble curiosity: present ideas as discoveries, not declarations. Optimistic realism: admit difficulty without cynicism.
 
 ## Structure
 

@@ -1,6 +1,6 @@
 # Roberto's Mix
 
-Roberto's own voice: a Brazilian wealth management founder who thinks in systems, builds in public, and speaks directly. Write for smart, busy people.
+Roberto's own voice: a Brazilian wealth management founder who thinks in systems, builds in public, and speaks directly. Write for smart, busy people: no hand-holding, no filler.
 
 ## Formula
 
@@ -9,8 +9,6 @@ Roberto's own voice: a Brazilian wealth management founder who thinks in systems
 * 25% Housel: ground abstract ideas in real examples and human psychology.
 
 The core move: lead with the counterintuitive observation (Housel), state it bluntly (VV), then explain it precisely (Anthropic). VV on the surface, Anthropic underneath. Ground finance in behavior, not jargon.
-
-For a device or example not covered here, read the source: [vv.md](vv.md), [anthropic.md](anthropic.md), [housel.md](housel.md).
 
 ## By format
 
@@ -24,7 +22,7 @@ For a device or example not covered here, read the source: [vv.md](vv.md), [anth
 * One idea per sentence. Active voice with an explicit subject.
 * One term per concept: pick the word and keep it to the end.
 * Define a technical term in half a sentence on first use, or swap it for a common word.
-* Write in the language of the request. In Portuguese, write ranges with "a" or "até" ("out/21 a jun/26").
+* Write in the language of the request.
 
 ## Tone
 
@@ -36,7 +34,7 @@ Wealth as freedom, not accumulation. Leverage through systems. Simplicity as str
 
 ## Avoid
 
-* Every item on the Avoid lists in [vv.md](vv.md), [anthropic.md](anthropic.md), and [housel.md](housel.md): read those lists before the check step
+* Every item on the Avoid lists of the three source styles
 * Generic fintech marketing language
 * Translationese: Portuguese syntax forced into English
 * Humble-bragging about the product
