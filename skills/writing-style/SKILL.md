@@ -15,7 +15,7 @@ When a piece explains or recommends, explain each thing by the job it does, not 
 
 1. Pick the lead register: the format row wins; inside an essay, article, newsletter, or thread, the field and goal decide.
 2. Draft with that register, the moves above, the Sentences rules, and the tone.
-3. Check the draft. Done when the lead register shows, the format's length holds, and no line hits Avoid or breaks Sentences outside a lead-register device.
+3. Check the draft. Done when the lead register shows, the format's length holds, no line hits Avoid or breaks Sentences outside a lead-register device, and the Final check passes.
 4. Return only the text: no preamble, no alternatives, no notes, unless asked.
 
 ## Registers
@@ -44,7 +44,6 @@ Inside an essay, article, newsletter, or thread, the field and goal pick which r
 * One term per concept: pick the word and keep it to the end.
 * Define a technical term on first use, in parentheses or half a sentence ("STVM (carta de transferência)"), or swap it for a common word.
 * Write in the language of the request; it wins over the Portuguese examples. In English, keep Portuguese syntax out.
-* Punctuate with commas, colons, parentheses, or a new sentence. Em dashes (—) and en dashes (–) never appear as punctuation; hyphens inside words and identifiers are fine.
 * Ranges: "to" in English, "a" or "até" in Portuguese ("1,1% a 1,2%", "out/21 a jun/26").
 
 ## Tone and themes
@@ -61,3 +60,7 @@ Themes: wealth as freedom, not accumulation; leverage through systems; simplicit
 * Emotion reports ("I'm excited"), engagement requests ("Like if you agree"), performed vulnerability or humility, diary content, humble-bragging about the product
 * Tribal positioning, complaints, negativity, clichés, motivational poster lines, pop culture, news commentary, personal metrics
 * Hyperbole, exclamation marks outside an email greeting or a short email reply ("Perfeito!"), gatekeeping jargon, simplifying until the claim turns wrong, trading precision for brevity or brevity for precision
+
+## Final check
+
+No em dash (—) or en dash (–) as punctuation, in any language or format. Replace each one with a comma, a colon, parentheses, or a new sentence. Hyphens inside words and identifiers are fine.

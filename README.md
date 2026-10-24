@@ -19,7 +19,7 @@ Then ask for text "in my style", or ask for a post, thread, essay, copy or email
 
 | Path | What it is |
 |---|---|
-| `skills/writing-style/SKILL.md` | The installed skill: my voice, registers (email included), sentence rules, Avoid list |
+| `skills/writing-style/SKILL.md` | The installed skill: my voice, registers (email included), sentence rules, Avoid list, and a final dash check as the last line |
 | `authors/vv.md` | Jack Butcher / Visualize Value: full profile, quantified from his tweets |
 | `authors/anthropic.md` | Anthropic / Eloquent Insight: full profile |
 | `authors/housel.md` | Morgan Housel: partial profile |
