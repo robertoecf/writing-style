@@ -1,7 +1,5 @@
 # Jack Butcher / Visualize Value (VV)
 
-If the `vvriter` MCP server is connected, draft with it, then edit the draft against this file. Otherwise write from this file.
-
 Direct, declarative, minimal. Say it in the fewest words. Treat the reader as smart. Write observations about reality, not opinions from a personality.
 
 ## Shape

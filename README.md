@@ -1,37 +1,45 @@
 # writing-style
 
-An agent skill for writing in specific voices. Works in Claude Code, Codex, and any host that reads `SKILL.md`.
+My writing voice as an agent skill, plus the author profiles and the process behind it.
 
-| Style | Say | Profile |
-|---|---|---|
-| Jack Butcher / Visualize Value | "vv style", "jack style" | Full, plus optional vvriter MCP |
-| Anthropic / Eloquent Insight | "anthropic style" | Full |
-| Morgan Housel | "housel style" | Partial |
-| Roberto's Mix | "my style", "roberto style" | Full: 40% VV, 35% Anthropic, 25% Housel |
-
-Examples: "write a tweet in vv style about leverage", "rewrite this in my style".
-
-## Layout
-
-`SKILL.md` is a short router: it loads, then reads only the files its table lists for the requested style. A single author style costs about a third of the old single file; Roberto's Mix adds the other styles' Avoid lists.
+Only one skill gets installed: [`skills/writing-style`](skills/writing-style/SKILL.md). It writes in my voice and picks a register (VV, Anthropic or Housel) by format, field and goal. The author profiles in [`authors/`](authors/) are source material, not skills.
 
 ## Install
 
+Copy the skill folder into your host's skills directory:
+
 ```bash
-mkdir -p ~/.claude/skills/writing-style
-cp -R SKILL.md styles ~/.claude/skills/writing-style/
+cp -R skills/writing-style ~/.claude/skills/   # Claude Code
+cp -R skills/writing-style ~/.agents/skills/   # Codex and other hosts that read ~/.agents
 ```
 
-Optional VV MCP: `claude mcp add vvriter -- pnpm dlx vvriter`
+Then ask for text "in my style", or ask for a post, thread, essay or copy.
 
-## Add an author
+## Layout
 
-1. Create `styles/<author>.md`. Use the sections that apply: voice paragraph, Shape or Structure, Devices (with examples), Tone and themes, Avoid.
-2. Add one row to the table in `SKILL.md` and name the author in its `description`.
+| Path | What it is |
+|---|---|
+| `skills/writing-style/SKILL.md` | The installed skill: my voice, registers, sentence rules, Avoid list |
+| `authors/vv.md` | Jack Butcher / Visualize Value: full profile, quantified from his tweets |
+| `authors/anthropic.md` | Anthropic / Eloquent Insight: full profile |
+| `authors/housel.md` | Morgan Housel: partial profile |
 
-To finish the Housel profile, collect what VV has: quantified patterns (sentence length, perspective ratio, opening distribution), devices with examples, signature words, and an Avoid list.
+## How I built it
+
+1. **Profile the writers you want to sound like.** For each one: voice, shape (numbers when you have data), named devices with real examples, tone, themes, and an Avoid list. VV is quantified from [jackbutcher.md](https://github.com/visualizevalue/jackbutcher.md): sentence length, mood, openings, perspective.
+2. **Weight them.** Mine: 40% VV (brevity, the backbone), 35% Anthropic (precision), 25% Housel (story, then principle).
+3. **Add what is only yours.** Identity, themes, and hard rules. My sentence rules (one idea per sentence, one term per concept, no em or en dashes) come from my global agent instructions.
+4. **Distill into one voice.** Turn each author into a register and map context to the lead register: format, field, goal. Keep only lines that change the output; state the target first and keep the Avoid list short.
+5. **Review adversarially.** Two external reviewers check rule preservation, token cost and triggering before merge.
+
+## Make your own
+
+1. Fork this repo.
+2. Replace or add profiles in `authors/`, using `authors/vv.md` as the template.
+3. Rewrite `skills/writing-style/SKILL.md`: your identity, your weights, your context table, your sentence rules, your Avoid list. Keep the frontmatter `description` quoted and naming the formats you write.
+4. Keep the skill under about 800 words. The author files can be as long as you want: they are never loaded.
 
 ## Credits
 
 * Jack Butcher data: [jackbutcher.md](https://github.com/visualizevalue/jackbutcher.md)
-* VV MCP: [vvriter](https://github.com/visualizevalue/vvriter)
+* VV MCP, for pure VV drafts: [vvriter](https://github.com/visualizevalue/vvriter) (`claude mcp add vvriter -- pnpm dlx vvriter`)
