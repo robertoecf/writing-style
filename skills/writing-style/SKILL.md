@@ -14,7 +14,7 @@ The core move: the counterintuitive observation, stated bluntly, then explained 
 1. Pick the lead register: the format row wins; inside a format, the field and goal decide.
 2. Draft with that register, the Sentences rules, and the tone.
 3. Check the draft. Done when the lead register shows, the format's length holds, and no line hits Avoid or breaks Sentences outside a lead-register device.
-4. Return the text. Add notes only when asked.
+4. Return only the text: no preamble, no alternatives, no notes, unless asked.
 
 ## Registers
 
