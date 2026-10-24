@@ -37,7 +37,7 @@ Then ask for text "in my style", or ask for a post, thread, essay or copy.
 1. Fork this repo.
 2. Replace or add profiles in `authors/`, using `authors/vv.md` as the template.
 3. Rewrite `skills/writing-style/SKILL.md`: your identity, your weights, your context table, your sentence rules, your Avoid list. Keep the frontmatter `description` quoted and naming the formats you write.
-4. Keep the skill under about 800 words. The author files can be as long as you want: they are never loaded.
+4. Keep the skill under about 900 words. The author files can be as long as you want: they are never loaded.
 
 ## Credits
 
