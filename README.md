@@ -39,7 +39,7 @@ Then ask for text "in my style", or ask for a post, thread, essay, copy or email
 2. Replace or add profiles in `authors/`, using `authors/vv.md` as the template.
 3. Rewrite `skills/writing-style/SKILL.md`: your identity, your weights, your context table, your sentence rules, your Avoid list. Keep the frontmatter `description` quoted and naming the formats you write.
 4. Calibrate: run the same counts over your own sent email or published posts, locally, and fix every rule your real writing contradicts.
-5. Keep the skill around 1,200 words or less. The author files can be as long as you want: they are never loaded.
+5. Keep the skill around 1,300 words or less. The author files can be as long as you want: they are never loaded.
 
 ## Credits
 
