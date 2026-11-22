@@ -1,5 +1,6 @@
 ---
 name: writing-style
+disable-model-invocation: true
 description: "Write in specific author styles (Jack Butcher/VV, Anthropic/Eloquent Insight, Morgan Housel, Roberto's Mix). Activates on 'write in X style' or 'X style'. Integrates with vvriter MCP for VV content."
 triggers:
   - "(?i)\\b(vv|visualize.?value|jack.?butcher|jack)\\s+style\\b"
